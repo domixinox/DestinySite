@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="author" content="Dominik But" />
+      <meta name="robots" content="index, follow" />
+      <meta name="keywords" content="Destiny, Game, Free, MMO, FPS, Steam">
+      <meta name="description" content="Destiny - About the game" />
+      <title>Destiny | About</title>
+      <link rel="shortcut icon" href="./graphics/deslogo.png" type="image/png" />
+      <link rel="stylesheet" type="text/css" href="styl.css" />
+   </head>
+   <body class="white">
+      <!------------Navigation menu------------->  
+      <nav class="linki">
+         <section id="links" class="show">
+            <a class="alink" href="https://bungie.net/" target="_blank" id="logodes"></a>
+            <a href="#me" class="alink">THE GAME</a>
+            <a href="#loot" class="alink">WEAPONS</a>
+            <a href="#skills" class="alink">GUARDIANS</a>
+            <a href="#locationslin" class="alink">LOCATIONS</a>
+            <a href="#supers" class="alink">ABILTIES</a>
+            <a href="#pvp" class="alink">PVP</a>
+            <a href="#contact" class="alink">CONTACT</a>
+         </section>
+         <a href="javascript:void(0);" class="icon" onclick="hide()">
+         MENU ☰
+         </a>
+      </nav>
+      <!------------Narzędzia dostepności------------->  
+      <nav class="access">
+         <section id="links2">
+            <ul>
+               <h4>Narzędzia dostępności</h4>
+               <li id="contrast" ><a>☼ Negatywny kontrast</a></li>
+               <li id="underline" ><a>▬ Linki podkreślone</a></li>
+               <li id="font" ><a>Æ Czytelna czcionka</a></li>
+            </ul>
+         </section>
+         <a class="icon2" onclick="hide2()">
+         ♿
+         </a>
+      </nav>
+      <!------------Introduction section------------->  
+      <header>
+         <section class="head" id="hdata">
+            <article class="hdata">
+               <h1>DESTINY</h1>
+            </article>
+         </section>
+         <section class="head" id="logo">
+            <a class="deslink" target="_blank" href="https://bungie.net"> PLAY FOR FREE</a>
+         </section>
+      </header>
+      <main>
+         <section class="main" id="me">
+            <!------------About section-------------> 
+            <section class="des">
+               <article id="inme">
+                  <h1>Definitive Action MMO</h1>
+               </article>
+               <article class="fulldes">
+                  <p>
+                     Join millions of players, create your Guardian, and start collecting unique weapons and armor to customize your look and playstyle. Embark on challenging co-op missions and a variety of competitive PvP modes. Experience Destiny 2’s evolving story with friends or explore the stars as a fireteam of one.
+                     SINGLE EVOLVING WORLD
+                     The world of Destiny continually evolves with new Seasons, events, and expansions. There are always new activities to experience and new items to earn.
+                     UNPARALELLED ACTION
+                     Master high-impact combat, soaring aerial action, and numerous devastating Super abilities you’ll unleash for the perfect jaw-dropping moment.
+                  </p>
+               </article>
+            </section>
+            <!------------Loot section------------->  
+            <section id="loot">
+               <article id="intech">Amazing Loot</article>
+               <section id="tech">
+                  <img class="tlogo" src="./graphics/outbreak.jpg" alt="Outbreak Prime" onclick="Click(this)"/>
+                  <img class="tlogo" src="./graphics/1k.jpg" alt="Thousend Voices" onclick="Click(this)"/>
+                  <img class="tlogo" src="./graphics/as.jpg" alt="Ace of Spades" onclick="Click(this)"/>
+                  <img class="tlogo" src="./graphics/strike.jpg" alt="Coldstrike" onclick="Click(this)"/>
+                  <img class="tlogo" src="./graphics/jotun.jpg" alt="Jotun" onclick="Click(this)"/>
+                  <img class="tlogo" src="./graphics/anarchia.jpg" alt="Anarchy" onclick="Click(this)"/>
+               </section>
+               <!------------Modal img-------------> 
+               <section id="modal" class="modal">
+                  <article class="big">
+                     <img id="bigimg">
+                     <p id="imgdes"></p>
+                  </article>
+               </section>
+            </section>
+         </section>
+         <!------------Classes section------------->  
+         <article class="skills" id="skills">THREE UNIQUE CLASSES</article>
+         <section class="main" id="skill">
+            <section class="skill">
+               <article class="sdes classdes">
+                  <h1 class="classname">Hunter</h1>
+                  <section class="opisclass">
+                     <img alt="Hunter Logo" src="./graphics/classes_hunter_shield.webp" />
+                     <p class="opis">Quick on their feet and quicker on the draw, Hunters blaze their own trails and write their own laws.</p>
+                  </section>
+               </article>
+               <article class="spng">
+                  <img class="logo" alt="Hunter" onclick="Click(this)" src="./graphics/class_hunter.webp" />
+               </article>
+            </section>
+            <section class="skill" id="titan">
+               <article class="spng">
+                  <img class="logo" alt="Titan" onclick="Click(this)" src="./graphics/class_titan.webp" />
+               </article>
+               <article class="sdesb classdes">
+                  <h1 class="classname">TITAN</h1>
+                  <section class="opisclass">
+                     <p class="opis">Disciplined and proud, Titans lead from the front with aggressive assaults and stalwart defenses.</p>
+                     <img alt="Titan Logo" src="./graphics/classes_titan_shield.webp" />
+                  </section>
+               </article>
+            </section>
+            <section class="skill" id="skillb">
+               <article class="sdes classdes">
+                  <h1 class="classname">WARLOCK</h1>
+                  <section class="opisclass">
+                     <img alt="Warlock Logo" src="./graphics/classes_warlock_shield.webp" />
+                     <p class="opis">Warlocks weaponize the mysteries of the universe to sustain themselves and devastate their foes.</p>
+                  </section>
+               </article>
+               <article class="spng">
+                  <img class="logo" alt="Warlock" onclick="Click(this)" src="./graphics/class_warlock.webp" />
+               </article>
+            </section>
+         </section>
+         <!------------Locations section------------->  
+         <section class="des" id="locations">
+            <article class="skills" id="locationslin">LOCATIONS</article>
+            <!------------Slider 1-------------> 
+            <article class="slider">
+               <section class="slidescon">
+                  <article class="slide fade">
+                     <img class="imgslid" onclick="Click(this)" src="./graphics/slider1/destinations_1_cosmodrome.webp">
+                  </article>
+                  <article class="slide fade">
+                     <img class="imgslid" onclick="Click(this)" src="./graphics/slider1/destinations_2_edz.jpg">
+                  </article>
+                  <article class="slide fade">
+                     <img class="imgslid" onclick="Click(this)" src="./graphics/slider1/destinations_3_nessus.webp">
+                  </article>
+                  <article class="slide fade">
+                     <img class="imgslid" onclick="Click(this)" src="./graphics/slider1/destinations_5_tangled_shore.jpg">
+                  </article>
+                  <article class="slide fade">
+                     <img class="imgslid" onclick="Click(this)" src="./graphics/slider1/destinations_6_dreaming_city.webp">
+                  </article>
+                  <article class="slide fade">
+                     <img class="imgslid" onclick="Click(this)" src="./graphics/slider1/destinations_7_europa.webp">
+                  </article>
+                  <article class="slide fade">
+                     <img class="imgslid" onclick="Click(this)" src="./graphics/slider1/destinations_8_tower.webp">
+                  </article>
+                  <a class="prev" onclick="pSlides(-1)">&#10094;</a>
+                  <a class="next" onclick="pSlides(1)">&#10095;</a>
+               </section>
+               <br>
+               <section class="dots">
+                  <article class="dot" onclick="crSlide(1)"></article>
+                  <article class="dot" onclick="crSlide(2)"></article>
+                  <article class="dot" onclick="crSlide(3)"></article>
+                  <article class="dot" onclick="crSlide(4)"></article>
+                  <article class="dot" onclick="crSlide(5)"></article>
+                  <article class="dot" onclick="crSlide(6)"></article>
+                  <article class="dot" onclick="crSlide(7)"></article>
+               </section>
+            </article>
+            <!------------Description locations-------------> 
+            <section id="danelocation">
+               <article id="inme2">
+                  <h1>Locations</h1>
+               </article>
+               <article class="fulldes">
+                  <p id="info">  
+                  </p>
+               </article>
+            </section>
+         </section>
+         <!------------Abilities section------------->  
+         <section class="des" id="supers">
+            <article class="skills">NEW SUPERS</article>
+            <!------------Slider 2-------------> 
+            <article class="slider">
+               <section class="slidescon">
+                  <article class="slide2 fade">
+                     <img class="imgslid" onclick="Click(this)" src="./graphics/slider2/Destiny-2-Beyond-Light-Shadebinder_02.jpg">
+                  </article>
+                  <article class="slide2 fade">
+                     <img class="imgslid" onclick="Click(this)" src="./graphics/slider2/media_stasis_3.5.jpg">
+                  </article>
+                  <article class="slide2 fade">
+                     <img class="imgslid" onclick="Click(this)" src="./graphics/slider2/supers_screenshot_1.jpg">
+                  </article>
+                  <article class="slide2 fade">
+                     <img class="imgslid" onclick="Click(this)" src="./graphics/slider2/supers_screenshot_2.jpg">
+                  </article>
+                  <article class="slide2 fade">
+                     <img class="imgslid" onclick="Click(this)" src="./graphics/slider2/supers_screenshot_3.jpg">
+                  </article>
+                  <a class="prev" onclick="pSlides2(-1)">&#10094;</a>
+                  <a class="next" onclick="pSlides2(1)">&#10095;</a>
+               </section>
+               <br>
+               <section class="dots">
+                  <article class="dot2" onclick="crSlide2(1)"></article>
+                  <article class="dot2" onclick="crSlide2(2)"></article>
+                  <article class="dot2" onclick="crSlide2(3)"></article>
+                  <article class="dot2" onclick="crSlide2(4)"></article>
+                  <article class="dot2" onclick="crSlide2(5)"></article>
+               </section>
+            </article>
+            <section class="dane">
+               <article class="inme2">
+                  <h1>SUPER ABILITIES</h1>
+               </article>
+               <article class="fulldes">
+                  <p>
+                     In combat, Guardians can channel their power to turn the tide of battle. Choose between a variety of subclasses, each with its own unique set of abilities, and unleash devastating Supers to protect your allies or demolish your enemies.
+                  </p>
+               </article>
+            </section>
+         </section>
+         <section class="des" id="pvp">
+            <!------------PvP section------------->    
+            <article class="skills">PVP</article>
+            <!------------Slider 3-------------> 
+            <article class="slider">
+               <section class="slidescon">
+                  <article class="slide3 fade">
+                     <img class="imgslid" onclick="Click(this)" src="./graphics/slider3/pvp_screenshot_1.jpg">
+                  </article>
+                  <article class="slide3 fade">
+                     <img class="imgslid" onclick="Click(this)" src="./graphics/slider3/pvp_screenshot_2.jpg">
+                  </article>
+                  <article class="slide3 fade">
+                     <img class="imgslid" onclick="Click(this)" src="./graphics/slider3/pvp_screenshot_3.jpg">
+                  </article>
+                  <article class="slide3 fade">
+                     <img class="imgslid" onclick="Click(this)" src="./graphics/slider3/arsenal_screenshot_2.jpg">
+                  </article>
+                  <article class="slide3 fade">
+                     <img class="imgslid" onclick="Click(this)" src="./graphics/slider3/arsenal_screenshot_3.jpg">
+                  </article>
+                  <a class="prev" onclick="pSlides3(-1)">&#10094;</a>
+                  <a class="next" onclick="pSlides3(1)">&#10095;</a>
+               </section>
+               <br>
+               <section class="dots">
+                  <article class="dot3" onclick="crSlide3(1)"></article>
+                  <article class="dot3" onclick="crSlide3(2)"></article>
+                  <article class="dot3" onclick="crSlide3(3)"></article>
+                  <article class="dot3" onclick="crSlide3(4)"></article>
+                  <article class="dot3" onclick="crSlide3(5)"></article>
+               </section>
+            </article>
+            <section id="danepvp">
+               <article class="inme2">
+                  <h1>COMPETITIVE PVP</h1>
+               </article>
+               <article class="fulldes">
+                  <p>
+                     Face off against other players in blistering free-for-all skirmishes, team arenas, and PvE/PvP hybrid competitions. Then enter Trials of Osiris, where the best players in the world stand between you and glory.
+                  </p>
+               </article>
+            </section>
+         </section>
+         <!------------Contact Form------------->
+         <section class="main" id="contact">
+            <section class="con" alt="xd" id="conpng">
+               <p id="wynik"></p>
+            </section>
+            <section class="con" id="panel">
+               <h1>Contact us!</h1>
+               <form id="dane" name="dane">
+                  <input type="text" id="imie" name="imie" placeholder="Name" /><br />
+                  <br />
+                  <input type="text" id="nazwisko" name="nazwisko" placeholder="Surname" /><br />
+                  <br />
+                  <input type="text" id="email" name="email" placeholder="E-mail" /><br />
+                  <br />
+                  <textarea id="wpisz" name="wpisz" placeholder="Enter your massage!" rows="10" cols="60"></textarea>
+                  <br />
+                  <br />
+                  <article>
+                     <input type="reset" id="cls" name="cls" onclick="clear()" value="Clear!" />
+                     <input type="button" id="send" name="send" onclick="wyslij()" value="Send!" />
+                  </article>
+               </form>
+            </section>
+         </section>
+      </main>
+      <!------------Informations section------------->
+      <footer>
+         <section id="dataff">
+            <section class="footer" id="more">
+               <article id="fheader">
+                  <h2>Informations</h2>
+               </article>
+               <section id="flinks">
+                  <a href="https://bungie.net" class="blink">Bungie.net</a>
+                  <a class="blink" href="https://www.bungie.net/en/News/Index">News</a>
+                  <a class="blink" href="https://www.bungie.net/7/en/registration">Community</a>
+               </section>
+            </section>
+            <section class="footer" id="data">
+               <article class="fdata">
+                  <h2>Author</h2>
+                  <p>
+                     Dominik But<br />
+                     Wysokotofo<br />
+                     ul. Sosnowa 166<br />
+                     62-081 Przeźmierowo
+                  </p>
+               </article>
+               <article class="fdata">
+                  <h2>School</h2>
+                  <p>
+                     Zespół Szkół Komunikacji<br />
+                     im. Hipolita Cegielskiego<br />
+                     ul. Fredry 13<br />
+                     61-701 Poznań
+                  </p>
+               </article>
+            </section>
+         </section>
+         <section id="cp">
+            <p>&copy; Układ graficzny Dominik But | 2020</p>
+         </section>
+      </footer>
+      <script>
+         /*---------Font changer----------*/
+         document.getElementById("font").addEventListener("click", () => {
+             var fh1 = document.querySelectorAll("h1");
+             if (document.body.classList.contains("font")) {
+                 document.body.classList.remove("font");
+                 for (let index = 0; index < fh1.length; index++) {
+                     fh1[index].classList.remove("font");
+                 }
+                 document.getElementById("font").classList.remove("click");
+             } else {
+                 document.body.classList.add("font");
+                 for (let index = 0; index < fh1.length; index++) {
+                     fh1[index].classList.add("font");
+                 }
+                 document.getElementById("font").classList.add("click");
+             }
+         })
+         /*---------Underline adding----------*/
+         document.getElementById("underline").addEventListener("click", () => {
+             var alinks = document.querySelectorAll("a");
+             if (document.querySelector("a").classList.contains("aunder")) {
+                 for (let index = 0; index < alinks.length; index++) {
+                     alinks[index].classList.remove("aunder");
+
+                 }
+                 document.getElementById("underline").classList.remove("click");
+             } else {
+                 for (let index = 0; index < alinks.length; index++) {
+                     alinks[index].classList.add("aunder");
+
+                 }
+                 document.getElementById("underline").classList.add("click");
+             }
+         })
+         /*---------Module functions----------*/
+         function byellow(where) {
+             for (let index = 0; index < where.length; index++) {
+                 where[index].style.borderColor = "yellow";
+             }
+         }
+
+         function bwhite(where) {
+             for (let index = 0; index < where.length; index++) {
+                 where[index].style.borderColor = "white";
+             }
+         }
+
+         function cyellow(where) {
+             for (let index = 0; index < where.length; index++) {
+                 where[index].style.color = "yellow";
+             }
+         }
+
+         function cwhite(where) {
+             for (let index = 0; index < where.length; index++) {
+                 where[index].style.color = "white";
+             }
+         }
+         /*---------Contrast changer----------*/
+         var alin = document.querySelectorAll(".alink");
+         var fdes = document.querySelectorAll(".fulldes");
+         var blin = document.querySelectorAll(".blink");
+         var tlogo = document.querySelectorAll(".tlogo");
+         var skill = document.querySelectorAll(".skill");
+         var logo = document.querySelectorAll(".logo");
+         var li = document.querySelectorAll("li");
+         var input = document.querySelectorAll("input");
+         document.getElementById("contrast").addEventListener("click", () => {
+             if (document.body.classList.contains("white")) {
+                 document.body.classList.remove("white");
+                 document.body.classList.add("yellow");
+                 document.body.style.backgroundColor = "black";
+                 for (let index = 0; index < li.length; index++) {
+                     li[index].classList.add("yellow");
+                 }
+                 for (let index = 0; index < input.length; index++) {
+                     input[index].style.borderBottomColor = "yellow";
+                 }
+                 cyellow(alin);
+                 cyellow(fdes);
+                 cyellow(blin);
+                 byellow(skill);
+                 byellow(tlogo);
+                 byellow(logo);
+                 document.querySelector(".big").style.borderColor = "yellow";
+                 document.querySelector(".icon").style.color = "yellow";
+                 document.querySelector(".deslink").style.color = "yellow";
+                 document.querySelector(".dane").style.borderColor = "yellow";
+                 document.querySelector("#danepvp").style.borderColor = "yellow";
+                 document.querySelector("#danelocation").style.borderColor = "yellow";
+                 document.querySelector("#locations").style.borderColor = "yellow";
+                 document.querySelector("#loot").style.borderColor = "yellow";
+                 document.querySelector("#skillb").style.borderColor = "yellow";
+                 document.getElementById("nazwisko").style.borderBottomColor = "yellow";
+                 document.querySelector("h4").style.color = "yellow";
+                 document.querySelector(".icon2").style.color = "yellow";
+                 document.querySelector(".access").style.backgroundColor = "black";
+                 document.getElementById("wpisz").style.backgroundColor = "black";
+                 document.getElementById("wpisz").style.borderColor = "yellow";
+                 document.querySelector("#send").style.backgroundColor = "yellow";
+                 document.querySelector("#cls").style.backgroundColor = "yellow";
+                 document.querySelector("#cp").style.backgroundColor = "yellow";
+                 document.querySelector("footer").style.borderColor = "yellow";
+                 document.querySelector("header").style.borderColor = "yellow";
+                 document.getElementById("contrast").classList.add("click");
+             } else {
+                 document.body.classList.remove("yellow");
+                 document.body.classList.add("white");
+                 document.body.style.backgroundColor = "#e0dfdf";
+                 for (let index = 0; index < li.length; index++) {
+                     li[index].classList.remove("yellow");
+                 }
+                 for (let index = 0; index < input.length; index++) {
+                     input[index].style.borderBottomColor = "white";
+                 }
+                 cwhite(fdes);
+                 cwhite(alin);
+                 cwhite(blin);
+                 bwhite(tlogo);
+                 bwhite(logo);
+                 bwhite(skill);
+                 document.querySelector(".icon").style.color = "white";
+                 document.querySelector(".big").style.borderColor = "white";
+                 document.querySelector(".dane").style.borderColor = "white";
+                 document.querySelector("#danepvp").style.borderColor = "white";
+                 document.querySelector("#danelocation").style.borderColor = "white";
+                 document.querySelector("#locations").style.borderColor = "white";
+                 document.querySelector("#loot").style.borderColor = "white";
+                 document.querySelector("#skillb").style.borderColor = "white";
+                 document.querySelector(".deslink").style.color = "white";
+                 document.querySelector("h4").style.color = "black";
+                 document.querySelector(".icon2").style.color = "white";
+                 document.querySelector(".access").style.backgroundColor = "rgba(255, 255, 255, 0.9)";
+                 document.getElementById("wpisz").style.backgroundColor = "white";
+                 document.getElementById("wpisz").style.borderColor = "transparent";
+                 document.querySelector("#send").style.backgroundColor = "white";
+                 document.querySelector("#cls").style.backgroundColor = "white";
+                 document.querySelector("#cp").style.backgroundColor = "white";
+                 document.querySelector("footer").style.borderColor = "white";
+                 document.querySelector("header").style.borderColor = "white";
+                 document.getElementById("contrast").classList.remove("click");
+             }
+         });
+         /*---------Menu changer-----------*/
+         window.addEventListener("resize", () => {
+             if (document.querySelector("nav").clientWidth > 1100) {
+                 document.getElementById("links").style.display = "block";
+             } else {
+                 document.getElementById("links").style.display = "none";
+             }
+         })
+         /*---------Menu hider----------*/
+         function hide() {
+             var x = document.getElementById("links");
+             if (x.style.display === "block") {
+                 x.style.display = "none";
+             } else {
+                 x.style.display = "block";
+             }
+         }
+         /*---------Helper menu hider----------*/
+         function hide2() {
+             var x = document.getElementById("links2");
+             if (x.style.display === "block") {
+                 x.style.display = "none";
+             } else {
+                 x.style.display = "block";
+
+             }
+         }
+         /*---------Modal img----------*/
+         document.getElementById("modal").addEventListener("click", () => {
+             document.getElementById("modal").style.display = 'none';
+         })
+
+         function Click(e) {
+             document.getElementById("bigimg").src = e.src;
+             document.getElementById("modal").style.display = "block";
+             document.getElementById("imgdes").innerHTML = e.alt;
+         }
+         /*---------Form checker----------*/
+         function wyslij() {
+             let imie = "";
+             let nazwisko = "";
+             let wzorimie = new RegExp("^[A-Z]{1}[a-z]{1,30}$");
+             if (wzorimie.test(document.dane.imie.value) == false) {
+                 document.dane.imie.classList.add("red");
+
+             } else {
+                 imie = document.dane.imie.value;
+                 document.dane.imie.classList.remove("red");
+             }
+             if (wzorimie.test(document.dane.nazwisko.value) == false) {
+                 document.dane.nazwisko.classList.add("red");
+             } else {
+                 nazwisko = document.dane.nazwisko.value;
+                 document.dane.nazwisko.classList.remove("red");
+             }
+             let wzormail = new RegExp("^[^\s@]+@[^\s@]+\.[^\s@]+$");
+             var email = "";
+             if (wzormail.test(document.dane.email.value) == false) {
+                 document.dane.email.classList.add("red");
+             } else {
+                 email = document.dane.email.value;
+                 document.dane.email.classList.remove("red");
+             }
+             var opis = "";
+             if (document.dane.wpisz.value == "" || document.dane.wpisz.value == null) {
+                 document.dane.wpisz.classList.add("red");
+             } else {
+                 opis = document.dane.wpisz.value;
+                 document.dane.wpisz.classList.remove("red");
+             }
+             var result = document.getElementById("wynik");
+             if (imie == "" || nazwisko == "" || email == "" || document.dane.wpisz.value == "") {
+                 result.style.color = "red";
+                 result.style.fontSize = "40px";
+                 result.innerHTML = "";
+                 result.innerHTML = "Wypełnij wszystkie pola poprawnie!";
+             } else {
+                 result.style.color = "white";
+                 result.style.fontWeight = "bold";
+                 result.style.fontSize = "20px";
+                 result.innerHTML = "";
+                 result.innerHTML = imie.toUpperCase() + " " + nazwisko.toUpperCase() + "<br>" + "<br>" + "Hi, we will contact you as fast as we can, under:" + "<br>" + "<br>" + email;
+             }
+
+         }
+         /*---------Locations info table----------*/
+         const deslocations = [{
+                 t: "The Cosmodrome",
+                 p: "The Cosmodrome was where humanity took to the stars - first in search of what lay beyond, and at the end, in hope of escape."
+             },
+             {
+                 t: "EDZ",
+                 p: "A region on Earth where a cataclysmic event left a shard of the Traveler embedded in the landscape."
+             },
+             {
+                 t: "Nessus",
+                 p: "Lush with giant twisted trees, deep caverns, waterfalls, and silver swamps, the origin of this planetoid remains unknown."
+             },
+             {
+                 t: "Tangled Shoree",
+                 p: "A patchwork wasteland at the edge of the Reef, it’s a lawless wasteland home to a pirate faction known as the Scorn."
+             },
+             {
+                 t: "Dreaming City",
+                 p: "Created in the Dark Age by Queen Mara Sov where she and other Awoken could find peace. A peace long since disturbed."
+             },
+             {
+                 t: "Europa",
+                 p: "The glacial frontier is home to countless mysteries and Golden Age relics buried beneath the ice and frozen in time."
+             },
+             {
+                 t: "The Tower",
+                 p: "The only home many Guardians ever know. To the people of the City, it stands as a promise that we can endure."
+             },
+         ];
+         /*---------Description changer----------*/
+         function des(x) {
+             document.getElementById("inme2").textContent = deslocations[x].t;
+             document.getElementById("info").textContent = deslocations[x].p;
+         }
+         /*---------Slider 1 with description change----------*/
+         var sid = 1;
+         Slides(sid);
+         des(sid - 1);
+
+         function pSlides(n) {
+             sid += n
+             let pcs = sid;
+             Slides(pcs);
+             if (pcs > 7) {
+                 des(0);
+             } else if (pcs < 1) {
+                 des(6);
+             } else {
+                 des(pcs - 1)
+             };
+         }
+
+         function crSlide(n) {
+             sid = n;
+             let cs = sid;
+             Slides(cs);
+             des(cs - 1);
+         }
+
+         function Slides(n) {
+             var i;
+             var slides = document.getElementsByClassName("slide");
+             var dots = document.getElementsByClassName("dot");
+             if (n > slides.length) {
+                 sid = 1
+             }
+             if (n < 1) {
+                 sid = slides.length
+             }
+             for (i = 0; i < slides.length; i++) {
+                 slides[i].style.display = "none";
+             }
+             for (i = 0; i < dots.length; i++) {
+                 dots[i].className = dots[i].className.replace(" active", "");
+             }
+             slides[sid - 1].style.display = "block";
+             dots[sid - 1].className += " active";
+         }
+         /*---------Slider 2----------*/
+         var sid2 = 1;
+         Slides2(sid2);
+
+         function pSlides2(n2) {
+             Slides2(sid2 += n2);
+         }
+
+         function crSlide2(n2) {
+             Slides2(sid2 = n2);
+         }
+
+         function Slides2(n2) {
+             var i2;
+             var slides2 = document.getElementsByClassName("slide2");
+             var dots2 = document.getElementsByClassName("dot2");
+             if (n2 > slides2.length) {
+                 sid2 = 1
+             }
+             if (n2 < 1) {
+                 sid2 = slides2.length
+             }
+             for (i2 = 0; i2 < slides2.length; i2++) {
+                 slides2[i2].style.display = "none";
+             }
+             for (i2 = 0; i2 < dots2.length; i2++) {
+                 dots2[i2].className = dots2[i2].className.replace(" active", "");
+             }
+             slides2[sid2 - 1].style.display = "block";
+             dots2[sid2 - 1].className += " active";
+         }
+         /*---------Slider 3----------*/
+         var sid3 = 1;
+         Slides3(sid3);
+
+         function pSlides3(n3) {
+             Slides3(sid3 += n3);
+         }
+
+         function crSlide3(n3) {
+             Slides3(sid3 = n3);
+         }
+
+         function Slides3(n3) {
+             var i3;
+             var slides3 = document.getElementsByClassName("slide3");
+             var dots3 = document.getElementsByClassName("dot3");
+             if (n3 > slides3.length) {
+                 sid3 = 1
+             }
+             if (n3 < 1) {
+                 sid3 = slides3.length
+             }
+             for (i3 = 0; i3 < slides3.length; i3++) {
+                 slides3[i3].style.display = "none";
+             }
+             for (i3 = 0; i3 < dots3.length; i3++) {
+                 dots3[i3].className = dots3[i3].className.replace(" active", "");
+             }
+             slides3[sid3 - 1].style.display = "block";
+             dots3[sid3 - 1].className += " active";
+         }
+      </script>
+   </body>
+</html>
